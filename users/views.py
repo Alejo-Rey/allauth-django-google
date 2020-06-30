@@ -21,7 +21,9 @@ class EducationView(CreateView):
     success_url = 'education'
 
 def add_education(request):
-    """ Adds information about education """
+    """ Adds information about education 
+        git flow 1
+    """
     user = request.user
 
     if request.method == 'POST':
